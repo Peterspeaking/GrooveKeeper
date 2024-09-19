@@ -10,11 +10,26 @@
   }
 }
 
+@font-face {
+  font-family: "KeepOnTruckin";
+  src: url("./fonts/KEEPT.TTF") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BoecklinsUniverse";
+  src: url("./fonts/BoecklinsUniverse.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  background-image: url('./public/background.jpg');
+  background-image: url('/background.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -34,6 +49,7 @@ body {
   padding: 0;
   margin: 0;
 }
+
 
 a {
   color: inherit;

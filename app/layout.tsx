@@ -1,4 +1,3 @@
-import { ChakraProvider } from '@chakra-ui/react'
 import { Providers } from './providers'
 import type { Metadata } from "next";
 import localFont from "next/font/local";
@@ -14,6 +13,7 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+
 
 export const metadata: Metadata = {
   title: "Track Your Vinyl Collection",
